@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-<title>PCB Fabrication System — Vendor Dashboard · KLE C-SHInE</title>
+<title>PCB Fabrication System - Vendor Dashboard · KLE C-SHInE</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -121,7 +121,7 @@
 
 <div class="wrap">
 
-  <h2>Quote Status — KPI Snapshot</h2>
+  <h2>Quote Status - KPI Snapshot</h2>
   <div class="kpi-grid">
     <div class="kpi"><div class="label">Vendors Contacted</div><div class="value">4</div></div>
     <div class="kpi flag-ok"><div class="label">Karnataka Support</div><div class="value">1 of 4</div></div>
@@ -139,39 +139,39 @@
     <tbody id="vendorRows"></tbody>
   </table>
 
-  <h2>PCB Fabrication — Technical Notes</h2>
+  <h2>PCB Fabrication - Technical Notes</h2>
   <div class="two-col">
     <div class="card">
       <h3>What the reference demo actually shows</h3>
-      <p>The Instagram reel itself could not be pulled directly (Instagram blocks automated fetches). Independent, published workflows confirm the same underlying process: MOPA galvo lasers are used by makers to cut isolation lines and ablate copper on FR-4, but hole drilling and board routing in those documented workflows is done separately, on a CNC mill — not by the laser. That is consistent with laser-ablated holes being burned openings, not plated vias.</p>
-      <p class="cite-note">Cross-checked against a documented MOPA + CNC PCB workflow and a professional laser-PCB system's published spec sheet (min. insulating gap 0.025mm, ablation rate on 0.018mm copper) — see sources below.</p>
+      <p>The Instagram reel itself could not be pulled directly (Instagram blocks automated fetches). Independent, published workflows confirm the same underlying process: MOPA galvo lasers are used by makers to cut isolation lines and ablate copper on FR-4, but hole drilling and board routing in those documented workflows is done separately, on a CNC mill - not by the laser. That is consistent with laser-ablated holes being burned openings, not plated vias.</p>
+      <p class="cite-note">Cross-checked against a documented MOPA + CNC PCB workflow and a professional laser-PCB system's published spec sheet (min. insulating gap 0.025mm, ablation rate on 0.018mm copper) - see sources below.</p>
     </div>
     <div class="card">
       <h3>Why MOPA over standard fiber</h3>
-      <p>MOPA's adjustable pulse width is the real differentiator every vendor emphasised. It lets you control ablation depth precisely — enough to strip copper cleanly for trace isolation without charring or over-penetrating the FR-4 beneath. A fixed-pulse fiber laser is far more likely to scorch the substrate — the same documented workflow above notes a second cleanup pass is needed even on MOPA to avoid a charred finish.</p>
+      <p>MOPA's adjustable pulse width is the real differentiator every vendor emphasised. It lets you control ablation depth precisely - enough to strip copper cleanly for trace isolation without charring or over-penetrating the FR-4 beneath. A fixed-pulse fiber laser is far more likely to scorch the substrate - the same documented workflow above notes a second cleanup pass is needed even on MOPA to avoid a charred finish.</p>
     </div>
   </div>
 
   <div class="card">
     <h3>Pros vs. traditional etch/CNC mill workflow</h3>
     <ul>
-      <li>No wet chemistry (ferric chloride etc.) — safer for a student-heavy lab, no hazardous liquid waste.</li>
-      <li>Minutes-not-hours turnaround for single/double-sided isolation — good for iterative coursework prototyping.</li>
-      <li>One machine covers marking, engraving, and isolation — lower combined capex than separate systems.</li>
+      <li>No wet chemistry (ferric chloride etc.) - safer for a student-heavy lab, no hazardous liquid waste.</li>
+      <li>Minutes-not-hours turnaround for single/double-sided isolation - good for iterative coursework prototyping.</li>
+      <li>One machine covers marking, engraving, and isolation - lower combined capex than separate systems.</li>
     </ul>
     <h3>Limitations to plan around</h3>
     <ul>
-      <li>No plated through-holes / vias — single or double-sided prototype-grade boards only, not production-grade multilayer.</li>
-      <li>Minimum trace/space is spot-size limited — a comparable professional laser-PCB system publishes a 0.025mm minimum insulating gap and a 0.023mm beam diameter as its ceiling; hobby-grade MOPA setups in practice run coarser, closer to 0.1mm+, since isolation slots need to be wide enough not to bridge during soldering.</li>
+      <li>No plated through-holes / vias - single or double-sided prototype-grade boards only, not production-grade multilayer.</li>
+      <li>Minimum trace/space is spot-size limited - a comparable professional laser-PCB system publishes a 0.025mm minimum insulating gap and a 0.023mm beam diameter as its ceiling; hobby-grade MOPA setups in practice run coarser, closer to 0.1mm+, since isolation slots need to be wide enough not to bridge during soldering.</li>
       <li>Fume extraction (HEPA + activated carbon) is non-negotiable, and is a recurring consumable cost, not a one-time add-on.</li>
-      <li>No solder mask or silkscreen step — those stay manual or need a separate process.</li>
-      <li>Galvo optics and lens need periodic recalibration — this is exactly why local (Karnataka) service response matters for a heavily-used student machine.</li>
+      <li>No solder mask or silkscreen step - those stay manual or need a separate process.</li>
+      <li>Galvo optics and lens need periodic recalibration - this is exactly why local (Karnataka) service response matters for a heavily-used student machine.</li>
     </ul>
   </div>
 
   <div class="card">
     <h3>Rough annual throughput (planning estimate, not a guarantee)</h3>
-    <p>The 15–30 min/board figure assumes a <strong>100mm × 100mm single-sided FR-4 coupon</strong> — a standard quarter-Eurocard prototype size, not a full production panel. Larger or double-sided boards will take proportionally longer.</p>
+    <p>The 15–30 min/board figure assumes a <strong>100mm × 100mm single-sided FR-4 coupon</strong> - a standard quarter-Eurocard prototype size, not a full production panel. Larger or double-sided boards will take proportionally longer.</p>
     <div class="pcb-diagram">
       <svg viewBox="0 0 340 200" width="320">
         <rect x="20" y="20" width="160" height="160" fill="#c9a84c" stroke="#0d1b3e" stroke-width="2" rx="4"/>
@@ -197,21 +197,21 @@
         <text x="100" y="15" text-anchor="middle" font-size="11" fill="#0d1b3e" font-family="JetBrains Mono, monospace">Reference coupon (single-sided)</text>
       </svg>
     </div>
-    <p>At that size — about 15 boards/day is realistic in an 8-hour academic day. Over ~200 teaching days that's ~2,500–3,000 boards/year for coursework alone; extending into project and incubation hours (more days, longer shifts) could push this toward 5,000+/year. Actual numbers will swing with board complexity and operator turnaround.</p>
+    <p>At that size - about 15 boards/day is realistic in an 8-hour academic day. Over ~200 teaching days that's ~2,500–3,000 boards/year for coursework alone; extending into project and incubation hours (more days, longer shifts) could push this toward 5,000+/year. Actual numbers will swing with board complexity and operator turnaround.</p>
   </div>
 
   <div class="suggestion">
-    <h3>Access model — students free, startups cost-recovery</h3>
+    <h3>Access model - students free, startups cost-recovery</h3>
     <p>The common, sustainable pattern at university innovation labs: free at point-of-use for enrolled students on coursework/capstone (funded as academic infrastructure, tracked via a booking log), a modest per-hour or per-board cost-recovery rate for KLE-incubated startups (Startup Street / C-SHInE ventures) to cover consumables and uptime, and a full commercial rate for any external/walk-in use. This keeps the machine self-sustaining without turning it into a profit centre, and gives you a clean basis to renegotiate the institutional discounts vendors have already floated.</p>
   </div>
 
   <h2>Recommended Next Action</h2>
   <div class="card">
-    <p><strong>Markolaser</strong> is the only vendor with confirmed Karnataka-based service (Neelmangla &amp; Madiwala) — chase their techno-commercial quote for a PCB-fab-specific MOPA configuration first; this matters most given the heavy, mixed-skill usage profile above. <strong>Dhunikart</strong> (₹6,89,000, quoted) is a useful benchmark but has no local support presence — keep as backup only. <strong>ComMarker</strong> has no India distribution route and is effectively closed for institutional procurement. <strong>Laser Technologies P Ltd</strong> has unconfirmed support status — verify before shortlisting. Whichever vendor is finalised, insist contractually on a Karnataka-based AMC/service commitment.</p>
+    <p><strong>Markolaser</strong> is the only vendor with confirmed Karnataka-based service (Neelmangla &amp; Madiwala) - chase their techno-commercial quote for a PCB-fab-specific MOPA configuration first; this matters most given the heavy, mixed-skill usage profile above. <strong>Dhunikart</strong> (₹6,89,000, quoted) is a useful benchmark but has no local support presence - keep as backup only. <strong>ComMarker</strong> has no India distribution route and is effectively closed for institutional procurement. <strong>Laser Technologies P Ltd</strong> has unconfirmed support status - verify before shortlisting. Whichever vendor is finalised, insist contractually on a Karnataka-based AMC/service commitment.</p>
   </div>
 
   <div class="footnote">Generated for internal review · Times shown in IST · Data sourced from RFQ correspondence, 05–21 Sep 2026</div>
-  <div class="footnote cite-note">Sources: LightBurn Software community forum — MOPA galvo PCB isolation workflow (drilling done separately via CNC); LPKF ProtoLaser S4 published spec sheet — professional laser-PCB benchmark figures.</div>
+  <div class="footnote cite-note">Sources: LightBurn Software community forum - MOPA galvo PCB isolation workflow (drilling done separately via CNC); LPKF ProtoLaser S4 published spec sheet - professional laser-PCB benchmark figures.</div>
 </div>
 
 <div class="sticky-footer">
@@ -269,7 +269,7 @@
   }).format(now);
   document.getElementById("refreshed").textContent = "Last refreshed: " + ist + " IST";
 
-  /* ---- Sticky footer "Last updated" — synced from the Dashboard tab's A2 cell ----
+  /* ---- Sticky footer "Last updated" - synced from the Dashboard tab's A2 cell ----
      Click the ⚙ button to paste the published CSV link (saved in this browser only). */
   const csvUrlInput = document.getElementById("csvUrlInput");
   const configPanel = document.getElementById("configPanel");

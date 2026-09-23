@@ -95,10 +95,10 @@
   .config-actions .save{background:var(--gold);color:var(--navy);font-weight:600;}
   .config-actions .cancel{background:rgba(255,255,255,0.12);color:#fff;}
   .config-hint{font-size:10.5px;color:rgba(255,255,255,0.5);margin-top:8px;line-height:1.5;}
-  .mark{
-    width:48px;height:48px;border:1px solid rgba(201,168,76,0.7);border-radius:9px;
-    display:grid;place-items:center;color:var(--gold-2);font-family:"Cormorant Garamond",serif;
-    font-size:19px;font-weight:600;flex:none;background:rgba(255,255,255,0.04);
+  .brand-logo{
+    height:48px;width:auto;border-radius:9px;flex:none;
+    object-fit:contain;background:rgba(255,255,255,0.04);
+    border:1px solid rgba(201,168,76,0.7);padding:4px;
   }
   .brand-row{display:flex;align-items:center;gap:14px;}
   body{padding-bottom:0;margin-bottom:0;}
@@ -109,7 +109,7 @@
 <div class="topbar">
   <div class="topbar-inner">
     <div class="brand-row">
-      <div class="mark">KLE</div>
+      <img src="assets/KLE_Logo.png" alt="KLE Logo" class="brand-logo" />
       <div>
         <div class="brand-title">PCB Fabrication System <span>· Vendor Dashboard</span></div>
         <div class="brand-sub">C-SHInE · KLE Technological University, Hubballi</div>
